@@ -157,6 +157,7 @@ body{
   align-items: center;       /* horizontally center */
   height: 100%;              /* take full height of .project */
   text-align: center;        /* center text inside */
+  height:50vh
 }
 
 
@@ -178,7 +179,7 @@ body{
 
 .projectRight {
   overflow-x: scroll;
-  height: 70vh;
+  height: 50vh;
 
   /* Hide scrollbar but keep scrolling */
   scrollbar-width: none;   /* Firefox */
@@ -188,5 +189,6 @@ body{
 .projectRight::-webkit-scrollbar {
   display: none;  /* Chrome, Safari, Opera */
 }
+
 
 
